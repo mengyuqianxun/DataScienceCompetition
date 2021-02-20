@@ -63,6 +63,8 @@ pandas、numpy、matplotlib是常用的数据分析包
 
 ### geohash
 
+参考自[Geohash原理](https://www.jianshu.com/p/1ecf03293b9a)
+
 Geohash是一个Python模块，它提供了在纬度和经度坐标之间解码和编码Geohashes的函数。可调用`decode()`和`encode()`函数。
 
 #### 引言
@@ -116,6 +118,8 @@ GeoHash将二维的经纬度转换成字符串，比如下图展示了北京9个
 
 
 ### [hnswlib](https://github.com/nmslib/hnswlib)
+
+参考[HNSW算法原理与源码解读](https://blog.csdn.net/qq_38156298/article/details/100085892)
 
 HNSW——Hierarchical NSW (分层的NSW算法)，是近似k近邻搜索中的新方法，也是对NSW方法的改进，它由多层的邻近图组成，因此称为分层的NSW方法。
 
@@ -246,6 +250,8 @@ Name: FENCE_AREA, dtype: float64
 ```
 
 可以看到大小还是差别挺大的。
+
+我们需要进一步考察baseline中得到的潮汐点，关注潮汐点是因为停的车辆多，所以停车点大，还是因为停车点小，所以成为了潮汐点。
 
 
 
